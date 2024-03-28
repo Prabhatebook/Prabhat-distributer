@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-7:Subjects</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body::-webkit-scrollbar{
+        display: none;
+    }
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    background: url("../img/Frame\ 13.png")no-repeat center fixed;
+    background-color: #2546F2;
+    overflow-y: scroll;
+    }
+
+h1{
+    margin: 2rem 0;
+    font-family: serif;
+    color: white;
+    text-shadow:5px 5px 10px black;
+    }
+
+.container{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+.btn{
+    width: 200px;
+    height: 50px;
+    margin: 1rem 0;
+    border-radius: 10px;
+    border: none;
+    }
+
+.btn:hover{
+    cursor: pointer;
+    width: 190px;
+    height: 47px;
+    margin: 1.1rem 0;
+    }
+    </style>
+</head>
+<body>
+    <h1>Class-7:Subjects</h1>
+    <div class="container">
+        <button class="btn" id="btn-1" target="_blank" onclick="location.href=`https://www.youtube.com/playlist?list=PLOL03_VNaPfRHdGnpG_KqBvl-UUQc5d_e`">Vasundhra Hindi</button>
+        <button class="btn" id="btn-2" onclick="location.href=`https://www.youtube.com/playlist?list=PLOL03_VNaPfT22pgtGQRhAiRf2oxLLA-I`">Orchid English</button>
+        <button class="btn" id="btn-3" onclick="location.href=`https://www.youtube.com/playlist?list=PLOL03_VNaPfQe5ju9bQ6e1TzG1cSKuKI1`">Math</button>
+        <button class="btn" id="btn-4" onclick="location.href=`https://www.youtube.com/playlist?list=PLOL03_VNaPfRy1u-yPURGDnL4oSW78QVN`">SST</button>
+        <button class="btn" id="btn-5" onclick="location.href=`https://www.youtube.com/playlist?list=PLOL03_VNaPfTFM7P6S7ajflSXGjTmokI5`">Science</button>
+        <button class="btn" id="btn-6" onclick="location.href=``">EVS</button>
+        <button class="btn" id="btn-7" onclick="location.href=`https://www.youtube.com/playlist?list=PLOL03_VNaPfRE895gUUsCngdZ5hxGB0gD`">Computer & Coding</button>
+        <button class="btn" id="btn-8" onclick="location.href=`https://www.youtube.com/playlist?list=PLOL03_VNaPfSBQG3C0Dkh5PghMZbUqEjk`">English Grammar</button>
+        <button class="btn" id="btn-9" onclick="location.href=`https://www.youtube.com/playlist?list=PLOL03_VNaPfRMgmkkwRjJE7cAQJK74p3K`">Vyakaran Ganga</button>
+    </div>
+</body>
+</html>
