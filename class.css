@@ -21,7 +21,7 @@ body{
     height:13vh;
     font-family: warpen;
     color: white;
-    background: url("./img/desktopsize/Label-1.PNG")no-repeat right;
+    background: url("./img/desktopsize/Label-1.png")no-repeat right;
     position: sticky;
     z-index: 1;
 }
@@ -85,7 +85,7 @@ body{
     right: -55px;
     width: 67vw;
     height: 67vh;
-    background: url("img/desktopsize/Edimg.PNG")no-repeat right;
+    background: url("./img/desktopsize/Edimg.png")no-repeat right;
     background-size: 80%;
     z-index: 2;
 }
