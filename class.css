@@ -21,7 +21,7 @@ body{
     height:13vh;
     font-family: warpen;
     color: white;
-    background: url("..img/desktopsize/Label-1.png")no-repeat right;
+    background: url("../img/desktopsize/Label-1.png")no-repeat right;
     position: sticky;
     z-index: 1;
 }
