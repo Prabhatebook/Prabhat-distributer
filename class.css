@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: url("../img/desktopsize/WebBg.jpg");
+    background: url("./img/desktopsize/WebBg.jpg");
     background-size: 100%;
     overflow: hidden;
 }
