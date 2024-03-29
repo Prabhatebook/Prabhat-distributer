@@ -407,13 +407,5 @@ body{
         box-shadow:0px 2px 5px rgb(99, 99, 99);
     }
     
-    .btn:hover{
-        cursor: pointer;
-        width: 70px;
-        height: 35px;
-        margin: 0 0 0 2px;
-    }
-    
-    
     
 }
