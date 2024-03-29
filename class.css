@@ -376,7 +376,7 @@ body{
     }
     .container{
         position: absolute;
-        bottom: -9px;
+        bottom: -20px;
         width: 100vw;
         height: 48vh;
         background: url("./img/Phonesize/Rectangle-2.png")no-repeat;
