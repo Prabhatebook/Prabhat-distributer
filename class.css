@@ -376,7 +376,7 @@ body{
     }
     .container{
         position: absolute;
-        bottom: -5vh;
+        bottom: -9px;
         width: 100vw;
         height: 48vh;
         background: url("./img/Phonesize/Rectangle-2.png")no-repeat;
@@ -388,20 +388,20 @@ body{
     #main-cont{
         width: 90vw;
         display: grid;
-        grid-template-columns: repeat(3, 30px);
-        justify-content: space-around;
-        margin: 7rem 0 1rem 0;
+        grid-template-columns: repeat(3, 55px);
+        justify-content: space-evenly;
+        margin: 6rem 0 1rem 0;
     
     }
     
     .btn{
-        width: 80px;
-        height: 40px;
+        width: 75px;
+        height: 35px;
         border-radius: 10px;
         border: none;
         font-family: lato;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 11px;
         color: white;
         background: linear-gradient(180deg, #8BA7FE, #446BFB);
         box-shadow:0px 2px 5px rgb(99, 99, 99);
@@ -410,9 +410,10 @@ body{
     .btn:hover{
         cursor: pointer;
         width: 70px;
-        height: 37px;
-        /* margin: 18px 0 0 5px; */
+        height: 35px;
+        margin: 0 0 0 2px;
     }
+    
     
     
 }
